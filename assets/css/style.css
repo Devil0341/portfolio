@@ -107,8 +107,9 @@
 #below-header-wrapper{
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: column;
-  align-items: center;
+  /* flex-direction: row; */
+  flex-direction: column;
+  /*align-items: center;
   justify-content: center; */
   border: 8px solid rgb(13, 229, 196);
 }
@@ -121,7 +122,7 @@ article {
  background-color: rgba(182, 182, 182);
 /* border: 5px dotted rgb(45, 87, 6); */
 }
-article  h2{
+article > h2{
   display: flex;
   /* flex-wrap: wrap; */
   justify-content: flex-end;
@@ -150,20 +151,14 @@ article  h2{
 
 .project-grid-container{
   display:flex;
+  /* flex: 50%; */
   height: auto;
   width: 100%;
   background-color: rgba(182, 182, 182);
   border: 8px dotted purple;
 }
-.all-box-items{
-  display: flex;
-  flex-wrap: wrap;
 
-}
-
-
-
-.all-box-items > h2{
+.project-grid-container div > h2{
   display: flex;
   justify-content: flex-end;
   width: 100%;  
@@ -172,10 +167,14 @@ article  h2{
   color: rgba( 2, 39, 53,1);
   border-right: 6px solid rgba( 2, 39, 53,1);
 } 
-
+.all-box-items{
+  display: flex;
+  
+  flex-wrap: wrap;
+}
 .top-box-column {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   height: auto;
   width: 100%;
   border: 4px solid chocolate;
@@ -192,6 +191,7 @@ article  h2{
 }
 
 #square-box-2, #square-box-3 {
+  height: 50px;
   width: 50%;  
     border: 3px solid black;
 }
