@@ -314,32 +314,6 @@ footer{
   font-weight: 900px;
 }
 
- 
-@media screen and (min-width: 401px) {
-  #below-header-wrapper{
-    flex-basis: 50%;
-  }
-  article, .project-grid-container {
-    flex-direction: column;
-    flex: 0 0 100%;
-    flex-wrap: wrap;
-  }
-  .about-me{
-    flex-basis: 100%;
-
-  }
-  footer {
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-  .name .top-nav-bar >li{
-    flex-wrap: wrap;
-    flex-direction: column;
-    flex-basis: 50%;
-  }
-}
-
-
 @media screen and (max-width: 600px) {
    #below-header-wrapper {
      flex-basis: 33%;
@@ -355,5 +329,7 @@ footer{
    }
  
  }
- 
+  
+
+
 
