@@ -64,7 +64,7 @@
 
         <!-- 1st row with 2 columns about me -->
         <div class="row">
-            <div class="col display-3" id='who-am-i'>Who am I</div>
+            <div class="col-4 display-3" id='who-am-i'>Who am I</div>
             <div class="col">
                 <p class='lead'>
                     There’s nothing I love more than my family. A well-run team — in and outside of an office
@@ -87,60 +87,71 @@
 
         <!-- 2nd row with left side column 'works' and right side column cards -->
         <div class='row'>
-<!-- left column 'works' -->
+            <!-- left column 'works' -->
             <div class='col-4 display-4' id='works'>Works</div>
 
             <!-- wraps all 5 cards -->
-            <div class='col-6'>
-                <!--Big main card -->
+            <div class='col'>
+                <!--Big main card MEDIA-fi-->
                 <div class="card" style='background: val(--linkcolor);'>
-                    <img src="./assets/images/image1.jpg"
-                            alt='MEDIA fi'>
+                    <img src="./assets/images/image1.jpg" alt='MEDIA fi'>
                     <div class='card-img-overlay'>
-                        <h2 class='card-title text-center' style= 'color:var(--navbarcolor)'><a href='https://polar-atoll-49785.herokuapp.com/index.html'  target='_blank'>MEDIA-fi</h2></a>
+                        <h2 class='card-title text-center' style='color:var(--navbarcolor)'>
+                            <a href='https://polar-atoll-49785.herokuapp.com/index.html' target='_blank'>MEDIA-fi
+                            </a>
+                        </h2>
+
                     </div>
                 </div>
-                <!-- 4 smaller cards -->
-                <div class="card-columns col-12">
+
+
+                <!-- 4 smaller cards-->
+                <div class="card-row">
+
+
                     <!-- Project tracker -->
-                    <div class="card" style='background: val(--linkcolor);'>
-                        <a href='https://devil0341.github.io/Project-Tracker/' target='_blank'><img src="./assets/images/image2.jpg"
-                                alt='cell phone password'></a>
+                    <div class="card-col" style='background: val(--linkcolor);'>
+                        <img src="./assets/images/image2.jpg" class='img-responsive' alt='calendar'/>
                         <div class='card-img-overlay'>
-                            <h3 class='card-title'><a href='https://devil0341.github.io/Project-Tracker/' target='_blank'>Project Tracker</h3></a>
+                            <h5 class='card-text text-center' style='color:var(--navbarcolor)'><a
+                                    href='https://devil0341.github.io/Project-Tracker/' target='_blank'>Project
+                                    Tracker</a></h5>
                         </div>
                     </div>
 
 
                     <!-- Password generator-->
-                    <div class="card" style='background: val(--linkcolor);'>
-                        <a href='placeholder' target='_blank'><img src="./assets/images/image2.jpg"
-                                alt='cell phone password'></a>
+                    <div class="card-col" style='background: val(--linkcolor);'>
+                        <a href='https://devil0341.github.io/Password-Generator/' target='_blank'><img
+                                src="./assets/images/image3.jpg" class='img-responsive' alt='cell phone password'></a>
                         <div class='card-img-overlay'>
-                            <h3 class='card-title'><a href='placeholder' target='_blank'>Password Generator</h3></a>
+                            <h5 class='card-title text-center'><a href='https://devil0341.github.io/Password-Generator/'
+                                    target='_blank'>Password Generator</a></h5>
                         </div>
                     </div>
 
 
                     <!-- Weather Dashboard-->
-                    <div class="card" style='background: val(--linkcolor);'>
-                        <a href='placeholder' target='_blank'><img src="./assets/images/image2.jpg"
-                                alt='cell phone password'></a>
+                    <div class="card-col" style='background: val(--linkcolor);'>
+                        <a href='https://devil0341.github.io/Weather-Dashboard/' target='_blank'><img
+                                src="./assets/images/image4.jpg" class='img-responsive' alt='hurricane'></a>
                         <div class='card-img-overlay'>
-                            <h3 class='card-title'><a href='placeholder' target='_blank'>Password Generator</h3></a>
+                            <h5 class='card-title text-center'><a href='https://devil0341.github.io/Weather-Dashboard/'
+                                    target='_blank'>Weather Dashboard</a></h5>
                         </div>
                     </div>
 
 
                     <!-- Work day Scheduler -->
-                    <div class="card" style='background: val(--linkcolor);'>
+                    <div class="card-col" style='background: val(--linkcolor);'>
                         <a href='https://devil0341.github.io/Work-Day-Scheduler/' target='_blank'><img
-                                src="./assets/images/image2.jpg" class='img-responsive' alt='cell phone password' /></a>
+                                src="./assets/images/image5.jpg" class='img-responsive' alt='cell phone password' /></a>
                         <div class='card-img-overlay'>
-                            <p class='card-title'><a href='https://devil0341.github.io/Work-Day-Scheduler/'
-                                    target='_blank'>Work Day Scheduler</p></a>
+                            <p class='card-title text-center'><a href='https://devil0341.github.io/Work-Day-Scheduler/'
+                                    target='_blank'>Work Day Scheduler</a></p>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -149,7 +160,7 @@
         <div class=row>
             <div class="col-4 display-4" id='reach-out'>Reach Out</div>
             <!-- right column -->
-            <div class="col-6">
+            <div class="col-8 pr-0">
                 <nav class="navbar navbar-light" id='footer-navbar' style="background-color: var(--darkblue);">
                     <!-- Navbar content -->
                     <a class='nav-item'>919.717.2680</a>
@@ -164,9 +175,8 @@
     </div>
 
 
-    <footer class='row'>
-        <div>Greg Petropoulos</div>
-
+    <footer class='row justify-content-center'>
+        <div>Copyright Greg Petropoulos</div>
     </footer>
 
 
