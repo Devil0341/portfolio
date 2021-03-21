@@ -43,3 +43,20 @@ img{
    background-color:var(--darkestblue);
    opacity: .6;
  }
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  #who-am-i {
+display: none;
+  }
+  #works {
+    display: none;
+  }
+  #reach-out{
+    display: none;
+  }
+  #contact-row{
+    justify-content: center;
+    width: 100%;
+  }
+}
