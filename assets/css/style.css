@@ -59,4 +59,7 @@ display: none;
     justify-content: center;
     width: 100%;
   }
+  button {
+    display: none;
+  }
 }
