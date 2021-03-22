@@ -11,28 +11,33 @@ body {
   font-family: 'Quicksand', sans-serif;
 background-color: var(--darkestblue);
 }
-/* 
+
   .page{
     max-width: 895px;
     margin: 0 auto;
     width: 100%;
-  } */
-a, a:hover, a:focus, a:active {
+  }
+
+  .navbar{
+    background-color: var(--darkblue);
+    color: var(--navbarcolor);
+     /* border: 2px solid green; */
+   } 
+   
+ a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
     margin: 1.2rem;
   
 }
-a:hover{
+  #ilios:hover, a:hover{
   color: var(--hoverblue);
 } 
 
-/* check */
-.navbar{
- background-color: var(--darkblue);
- color: var(--navbarcolor);
-  /* border: 2px solid green; */
-} 
+
+
+
+
 img{
   max-width: 100%;
   max-height: 100%;
