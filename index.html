@@ -33,7 +33,8 @@
 <body>
     
     <!-- nav bar styles with bootstrap -->
-    <nav class="navbar  sticky-top navbar-expand-lg navbar-light">
+    <!-- had to remove sticky-top it was covering the links clicked on -->
+    <nav class="navbar  navbar-expand-md navbar-light">
         <a class="navbar-brand" id='ilios' href="#ilios">
             <h2>ILIOS</h2>
         </a>
@@ -47,7 +48,7 @@
                 <a class="nav-item nav-link" href="#works">Works</a>
                 <a class="nav-item nav-link" href="#who-am-i">About</a>
                 <a class="nav-item nav-link"
-                    href="http://bit.ly/Greg-Resume"
+                    href="https://drive.google.com/file/d/1CTdm1jj9AZ4ygskfL1jqwcFyzSZvPKtH/view?usp=sharing"
                     target='_blank'>Resume'</a>
                 <a class="nav-item nav-link" href="#reach-out">Reach Out<i class="fas fa-mobile-alt"></i></a>
             </div>
@@ -74,7 +75,7 @@
 
         <!-- 1st row with 2 columns about me -->
         <div class="row">
-            <div class="col-sm-4 display-3" id='who-am-i'>Who am I</div>
+            <div class="col-sm-4 display-3" id= 'who-am-i'>Who am I</div>
             <div class="col">
                 <p class='lead'>
                     Light up the darkness! My brand Ilios is a searchlight for pragmatic development, design, and
@@ -84,7 +85,7 @@
                 <p class='lead'>
                     Hi my name is Greg Petropoulos and I am a full stack developer. I have quite a bit of sales and
                     field experience which led me to get behind a career in software development. I am well versed in
-                    Javascript, jQuery, HTML5 CSS3, Node.js, React. I am based out of the Raleigh-Durham triangle, NC.
+                    JavaScript, jQuery, HTML5 CSS3, Node.js, React. I am based out of the Raleigh-Durham triangle, NC.
                     If you would like to learn more or want to discuss any upcoming projects<a href='#reach-out'><span class = "font-weight-bold font-italic" style ='color:var(--darkblue);'>reach out</span></a>at the bottom of the
                     page or download my resume’.
                 </p>
@@ -103,8 +104,9 @@
                     <img src="./assets/images/golf.jpg" class='img-fluid' alt='Golfers Plus'>
                     <div class='card-img-overlay'>
                         <h2 class='card-title text-center' style='color:var(--navbarcolor)'>
-                            <a href='https://golfgolf210510.herokuapp.com/login' target='_blank'>Golfers+
+                            <a href='https://github.com/GregPetropoulos/Golf-Assistant-App' target='_blank'>Golfers+
                             </a>
+                            <p class = 'lead'> An app designed from front to back for golf quota scoring and stats keeping while playing hole by hole</p>
                         </h2>
 
                     </div>
@@ -118,8 +120,11 @@
                     <div class="col-sm-6 my-3">
                         <img src="./assets/images/image2.jpg" class='img-fluid' alt='calendar' />
                         <div class='card-img-overlay'>
-                            <h5 class='card-title text-center'><a href='https://www.youtube.com/watch?v=soKo5LzN12w'
-                                    target='_blank'>Team Profile Generator</a></h5>
+                            <h5 class='card-title text-center'><a href='https://github.com/GregPetropoulos/Team-Profile-Generator'
+                                    target='_blank'>Team Profile Generator</a>
+                                    <p class = 'small'>A CLI app that takes employee information and renders a web page</p>
+                                </h5>
+                            
                         </div>
                     </div>
 
@@ -127,18 +132,20 @@
                     <div class="col-sm-6 my-3">
                         <img src="./assets/images/ecommerce.jpg" class='img-fluid' alt='credit card' />
                         <div class='card-img-overlay'>
-                            <h5 class='card-title text-center'><a href='https://studio.youtube.com/video/xQemFWT0NO8/edit'
-                                    target='_blank'>Ecommerce</a></h5>
+                            <h5 class='card-title text-center'><a href='https://github.com/GregPetropoulos/Object-Relational-Mapping-ORM-E-Commerce-Back-End'
+                                    target='_blank'>Ecommerce</a>
+                                <p class='small'>Configured the back end with Express.js API to use Sequelize to interact with a MySQL database and associated tables.</p></h5>
                         </div>
                     </div>
 
                    
                      <!-- Tech Blog -->
                      <div class="col-sm-6 my-3">
-                        <img src="./assets/images/blog.jpg" class='img-fluid' alt='typewriter' />
+                    <img src="./assets/images/blog.jpg" class='img-fluid' alt='typewriter'/>
                         <div class='card-img-overlay'>
-                            <h5 class='card-title text-center'><a href='https://techblogspeakeasy2021.herokuapp.com/'
-                                    target='_blank'>Tech Blog</a></h5>
+                            <h5 class='card-title text-center'><a href='https://github.com/GregPetropoulos/Tech-Blog-MVC'
+                                    target='_blank'>Tech Blog</a>
+                                <p class='small'>Tech Blog based around a Wordpress style CMS. The app uses MVC paradigm in its architectural structure Sequelize as the ORM, and the express-session npm package for authentication.</p></h5>
                         </div>
                     </div>
                    
@@ -146,8 +153,9 @@
                     <div class="col-sm-6 my-3">
                         <img src="./assets/images/image4.jpg" class='img-fluid' alt='hurricane' />
                         <div class='card-img-overlay'>
-                            <h5 class='card-title text-center'><a href='https://gregpetropoulos.github.io/Weather-Dashboard/'
-                                    target='_blank'>Weather Dashboard</a></h5>
+                            <h5 class='card-title text-center'><a href='https://github.com/GregPetropoulos/Weather-Dashboard'
+                                    target='_blank'>Weather Dashboard</a>
+                                <p class ='small'>User inputs a city and the current weather and five day forecast will display. The local storage will display a history of the city input's</p></h5>
                         </div>
                     </div>
                 </div>
